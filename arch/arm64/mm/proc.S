@@ -186,7 +186,7 @@ ENTRY(cpu_do_switch_mm)
 	ret
 ENDPROC(cpu_do_switch_mm)
 
-	.section ".text.init", . alloc, .execinstr      // pmbootstrap error
+	.section ".text.init"                   // pmbootstrap error
 
 /*
  *	__cpu_setup
